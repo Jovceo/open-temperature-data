@@ -1,0 +1,44 @@
+{
+  "title": "Open temperature reference datasets: oven conversions (gas mark / fan), safe internal cooking temperatures, body temperature thresholds",
+  "description": "<p>Machine-readable temperature reference tables with row-level provenance.</p><ul><li><strong>human-body-temperature</strong>: 34 rows, version 1.0.0, last checked 2026-08-27 (<a href=\"https://ctofconverter.com/data/human-body-temperature.json\">JSON</a> / <a href=\"https://ctofconverter.com/data/human-body-temperature.csv\">CSV</a>)</li><li><strong>oven-conversions</strong>: 12 rows, version 1.0.0, last checked 2026-08-27 (<a href=\"https://ctofconverter.com/data/oven-conversions.json\">JSON</a> / <a href=\"https://ctofconverter.com/data/oven-conversions.csv\">CSV</a>)</li><li><strong>safe-internal-temperatures</strong>: 9 rows, version 1.0.0, last checked 2026-08-27 (<a href=\"https://ctofconverter.com/data/safe-internal-temperatures.json\">JSON</a> / <a href=\"https://ctofconverter.com/data/safe-internal-temperatures.csv\">CSV</a>)</li></ul><p>Every row states the publishing body, the URL it was read from, a verbatim fragment of the source text, and the date it was checked. Where authorities disagree, both figures are kept and labelled rather than averaged; bands that no authority publishes are absent.</p><p>This repository mirrors the published layer at <a href=\"https://ctofconverter.com/data/\">https://ctofconverter.com/data/</a> and is kept in sync by CI. Data CC-BY-4.0, code MIT.</p>",
+  "creators": [
+    {
+      "name": "Jovceo"
+    }
+  ],
+  "upload_type": "dataset",
+  "publication_date": "2026-11-18",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "version": "2026.11.18",
+  "language": "eng",
+  "keywords": [
+    "temperature conversion",
+    "celsius",
+    "fahrenheit",
+    "gas mark",
+    "oven temperature",
+    "food safety",
+    "safe minimum internal temperature",
+    "body temperature",
+    "fever thresholds",
+    "open data"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://ctofconverter.com/data-api",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://ctofconverter.com",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/Jovceo/ctofconverter",
+      "relation": "isDerivedFrom",
+      "scheme": "url"
+    }
+  ]
+}
