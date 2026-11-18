@@ -1,0 +1,32 @@
+{
+  "lastChecked": "2026-11-18T00:49:52.784Z",
+  "source": "https://ctofconverter.com/data/",
+  "result": "updated from site",
+  "changedFiles": [
+    "manifest.json",
+    "human-body-temperature.csv",
+    "oven-conversions.csv",
+    "safe-internal-temperatures.csv"
+  ],
+  "datasets": [
+    {
+      "id": "human-body-temperature",
+      "rows": 34,
+      "version": "1.0.0",
+      "updated": "2026-08-27"
+    },
+    {
+      "id": "oven-conversions",
+      "rows": 12,
+      "version": "1.0.0",
+      "updated": "2026-08-27"
+    },
+    {
+      "id": "safe-internal-temperatures",
+      "rows": 9,
+      "version": "1.0.0",
+      "updated": "2026-08-27"
+    }
+  ],
+  "note": "Written by scripts/sync-from-site.mjs on every run. Do not edit by hand."
+}
